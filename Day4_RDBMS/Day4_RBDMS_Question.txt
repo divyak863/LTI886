@@ -10,3 +10,14 @@ Price: xxxxx
 Quantity : xxx
 Amount Payable : xxxx
 -------------------------------
+
+3) Create a proc that will help the author to get the list of books he sold 
+print the total amount of sale
+then list the books
+
+4) Create a procedure that takes a publsher name and gives back the total number of quantity sold
+
+5) create a procedure that will insert a new row in to the transaction table 
+with details of transaction(from,to account, amount, tran_status)
+update the balance if the transaction is success 
+If the transaction fails update the record inserted in to the transaction table. mark as failure in the tran_status
