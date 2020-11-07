@@ -42,3 +42,10 @@ Please enter your age
 31
 Hi Miss. Sita you are 31 years old
 
+SQL
+1) Create a table for storing username and password,role,age, phone of users
+username should be min 6 chars
+Age should be min 18
+username is the primary key
+phone numbers cannot repeat
+
