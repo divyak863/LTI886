@@ -1,0 +1,25 @@
+IDE
+ASP - Web,VB/VC++ -> Visual Studio
+Java - Free - Web
+GUI - Visual Studio .NET
+.NET - > Tech
+C# - Language - PL - Keywords+Syntax
+
+PT+ space in memory = Execution
+
+CLR
+PE
+Assembly
+Metadata
+Manifest
+CIL/MSIL
+ILDASM
+
+sequence
+selection
+iteration
+
+Namespace
+Modularity
+
+

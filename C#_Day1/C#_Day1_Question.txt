@@ -1,0 +1,44 @@
+1) Take 2 numbers from  user
+Add, subract, multiply and divide teh numbers and print the result of each
+
+2) Take numbers from user until a negative value is given and find the sum of all the numbers given
+Sample
+10
+21
+40
+-1
+The sum is 71
+
+3) Create a method with name calculate tax
+Take the amount, tax% from user print the total payable after adding the tax
+Formula -  amount +(amount*tax/100)
+
+4) Create a method that will print all the even numbers up to 10
+
+5) Improve the code for question 4 to print all the even numbers up to a given number(The number to be taken from user)
+
+6) Write a method that will take username and password frm user and check if the username is "admin" and password is "1234" then print welcome. If not then print "invalid username or password"
+
+7) Create a method that will take  15 numbers from user and calculate the average of all number that are divisible by 7
+
+8) Take a number from user and check if it is prime or not
+
+9) Take a min and a max number from user and find all teh prime numbers between the range
+
+10) Take the name, gender and age from user. Print the details in the following format
+Pease enter your name:
+Ramu
+Please enter your gender
+Male
+Please enter your age
+21
+Hi Mr. Ramu you are 21 years old
+
+Pease enter your name:
+Sita
+Please enter your gender
+Female
+Please enter your age
+31
+Hi Miss. Sita you are 31 years old
+

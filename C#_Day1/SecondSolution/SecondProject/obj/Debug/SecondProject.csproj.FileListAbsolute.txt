@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\bin\Debug\SecondProject.exe.config
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\bin\Debug\SecondProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\bin\Debug\SecondProject.pdb
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\obj\Debug\SecondProject.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\obj\Debug\SecondProject.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\obj\Debug\SecondProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day1\SecondSolution\SecondProject\obj\Debug\SecondProject.pdb
