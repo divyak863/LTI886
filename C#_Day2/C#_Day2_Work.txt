@@ -1,0 +1,25 @@
+.netframework
+  Interoperability
+Platform
+
+C# Special features
+  Properties
+
+
+
+OOPS
+Object
+Class
+  Constructors
+  destructors
+  Function
+  Parameters
+  Variable Scope
+  Variable Lifetime
+  static
+
+Instansiation
+
+Datatypes
+  Value
+  Reff
