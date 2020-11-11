@@ -1,0 +1,44 @@
+create Course class  (id, name, duration, fees)
+
+
+
+- Create Enroll class with the following structure:
+   - public class Enroll {
+	private Student student;
+	private Course course;
+	private DateTime enrollmentDate;
+
+	//constructors & getters/setters
+     }
+
+- Next create AppEngine class which will contain the following methods:
+
+  - public void introduce(Course course) {
+
+    }
+
+  - public void register(Student student) {
+
+    }
+
+  - public Student[] listOfStudents() {
+
+    }
+
+  - public Course[] listOfCourses() {
+
+    }
+
+  - public void enroll(Student student, Course course) {
+
+    }
+
+  - public Enroll[] listOfEnrollments() {
+
+    }
+
+- Write App class with main method to test the above functionalities
+  - Add new methods for displaying Enrollment details
+
+
+

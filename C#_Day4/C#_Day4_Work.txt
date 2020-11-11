@@ -1,0 +1,34 @@
+Class 
+Object
+Inheritance
+Polymorphism
+  Static - Compile time - Early Binding - Overloading
+  Dynamic - Runtime - Late Binding - Overrinding
+
+
+Method
+  Def
+  Call
+
+Overloading - Parameter
+  Number
+  Order
+  Datatype
+
+  Method
+  Constructor
+  Operator
+  Indexer
+
+overridng
+  method
+
+overring vs. Shadowing
+
+Sealed; - classes,methods
+
+Abstract class and Interface
+this,base
+
+Encapsulation - Data Hiding
+  

@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\obj\Debug\QuestionDay4.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\obj\Debug\QuestionDay4.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\bin\Debug\QuestionDay4.exe.config
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\bin\Debug\QuestionDay4.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\bin\Debug\QuestionDay4.pdb
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\obj\Debug\QuestionDay4.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\QuestionDay4\obj\Debug\QuestionDay4.pdb
