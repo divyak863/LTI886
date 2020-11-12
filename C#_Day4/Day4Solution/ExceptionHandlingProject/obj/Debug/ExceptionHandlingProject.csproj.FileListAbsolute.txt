@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\bin\Debug\ExceptionHandlingProject.exe.config
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\bin\Debug\ExceptionHandlingProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\bin\Debug\ExceptionHandlingProject.pdb
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\obj\Debug\ExceptionHandlingProject.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\obj\Debug\ExceptionHandlingProject.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\obj\Debug\ExceptionHandlingProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day4\Day4Solution\ExceptionHandlingProject\obj\Debug\ExceptionHandlingProject.pdb

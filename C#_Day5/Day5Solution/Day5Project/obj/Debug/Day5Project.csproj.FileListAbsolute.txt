@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\bin\Debug\Day5Project.exe.config
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\bin\Debug\Day5Project.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\bin\Debug\Day5Project.pdb
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\obj\Debug\Day5Project.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\obj\Debug\Day5Project.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\obj\Debug\Day5Project.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\C#_Day5\Day5Solution\Day5Project\obj\Debug\Day5Project.pdb

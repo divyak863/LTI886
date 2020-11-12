@@ -26,8 +26,15 @@ namespace QuestionDay4
                 {
                     case 1:
                         Student student = new Student();
-                        student.TakeStudentData();
-                        appEngine.Register(student);
+                        try
+                        {
+                            student.TakeStudentData();
+                            appEngine.Register(student);
+                        }
+                        catch (AgeException ae)
+                        {
+                            Console.WriteLine(ae.Message);
+                        }
                         break;
                     case 2:
                         Course course = new Course();

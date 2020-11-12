@@ -26,6 +26,8 @@ namespace QuestionDay4
             Name = Console.ReadLine();
             Console.WriteLine("Please enter the student Age");
             Age = Convert.ToInt32(Console.ReadLine());
+            if (Age < 13)
+                throw new AgeException();
         }
         public Student()
         {
