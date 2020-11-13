@@ -17,7 +17,7 @@ namespace Day5Project
             VeryLow
         }
 
-        void UnderstandingEnum()
+        void UnderstandingEnum() 
         {
             Priority priority = Priority.VeryHigh;
             Console.WriteLine(priority);

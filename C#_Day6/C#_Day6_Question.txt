@@ -1,0 +1,17 @@
+Create a customer class with
+Id,Name,Age,Area,Phone
+Create the parameterized constructor, ToString methods and method for Input
+
+Create a CustomerManagement Class with methods for 
+Adding a lot of Customers
+Add a single customer
+Printing all customers
+Printing Customers who are elder than a given customer
+Print the customer with a specific ID
+Print all the customer from every are
+Print all the customer form every age
+Print all the customer who are in a age group
+Modify a customer details
+Delete a customer(Remove method)
+
+Display these options to user and also provide option for the user to exit 

@@ -1,0 +1,12 @@
+delegate
+  unicast
+  multicast
+Inbuilt
+  Action
+  Func
+  Predicate
+
+LINQ
+
+
+ 
