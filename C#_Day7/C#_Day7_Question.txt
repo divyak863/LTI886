@@ -1,0 +1,28 @@
+1) Create a application that will show and implement the following functionalities
+
+Menu
+1. Register Student - conn
+2. Create a new Course - conn
+3. Enroll a student in a course - conn
+4. See all enrollments coursewise - discon
+5. See all courses - discon
+6. List all the students - discon
+7. Delete an enrolment. - conn
+
+Model Class
+  Student class
+  Course class
+  Enrolment class
+
+Functional Class
+  College
+
+SPs
+ InsertStudent
+ InsertCourse
+ InsertEnrol
+ GetAllCourse
+ GetAllStudents
+ GetAllEnrol
+
+
