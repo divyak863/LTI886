@@ -1,0 +1,99 @@
+Entity
+  Strong
+  week
+Attribute
+  Simple
+  Complex
+  Multi value
+  Derived
+NF 1,2,3
+Keys
+  Primary
+  Foreign
+  Candidate
+  Alternate
+  Super
+  Unique
+Contraints
+  Primary
+  Default
+  Check
+  Foreign
+  Unique
+  Not Null
+Type of queries
+  DDL - Create, Alter, Drop
+  DML - Insert, Update, Delete
+  DCL - Grant, Revoke
+  Query - Select
+     	   Where
+       	   Group by
+   	   Having
+ 	   Order By
+  	   Functions - String, Date, Number
+  	  Sub quries
+ 	  Joins
+ 	    Inner
+	    outer
+ 	    Self
+	    Cross
+  Procedures - In, out, Inout
+  Triggers - Insert,UPdate,Delete - on, Instead Of
+  Functions - Scalar, Table
+  Transactions - Commit, Rollback, Save
+C#
+  Language
+     Sequence
+     Selection - If, If-else-if, Switch
+     Iteration - while, do-while,for,foreach
+     array - single, multi dim, Jagged
+     Typecasting
+     Boxing-Unboxing
+     Convertions
+  Class
+  Object
+  Encapsulation
+  Inheritance - simple, Multi-lev, Hirar
+  Polymorphism 
+ 	Static - Overloading- methods,Constructors, Operator, Indexer
+	Dynamic - Overriding - Methods, Properties
+	Abstract Methods
+  Shadowing
+  Abstraction - Interface
+  Sealed - class, methods
+  Static - methods, variables, Constructors 
+  Stucts
+  Enum
+  Checked Bloack
+  Nullable types
+  Error Handling
+  Exception
+    Try - catch- finally
+    Nested trys
+    User defined Exception
+  Collections
+     Generic
+        List, Stack, Queue, Dic, Set
+     IComparable, Comparer
+     IEnumerable
+  Delegate
+      Func, Action, Predicate
+  Lambda
+  LINQ - Where, Group By
+  Partial class
+  Constants
+  Parameters - in, out, ref
+  ADO.NET - con,discon
+     Connection
+     Command
+     Dataset
+     DataReader
+     Methods
+       Connection - Open,Cose, state
+       Command - ExecuteReader, ExecuteNonQuery, ExecuteScalar, commandText, type, 
+        
+       adapter - Fill,UPdate
+     Add Parameter
+     Procedures
+     Transaction - commit, rollback, save
+  
