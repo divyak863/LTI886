@@ -1,0 +1,56 @@
+class Solution {
+    public int solution(int N) {
+      string binaryNumbers = Convert.ToString(N,2);
+      //Console.WriteLine(binaryNumbers);
+      int longGap =0, currentGap =0;
+      int idx = binaryNumbers.LastIndexOf('1');
+      if (idx < binaryNumbers.Length - 1)
+                binaryNumbers = binaryNumbers.Substring(0, idx);
+      for(int i =0;i<binaryNumbers.Length;i++)
+      {
+          if(binaryNumbers[i] == '0')
+          {
+              
+              if(currentGap >0)
+                  currentGap++;
+              else
+                  currentGap = 1;
+          }
+          else
+             currentGap = 0;
+          if(longGap < currentGap)
+               longGap = currentGap;
+      }
+      return longGap;
+    }
+}
+
+
+0110 - 6
+0110 - 6
+-----
+0000 - res
+0010 - 2
+-----
+0010 - res
+0101 - 5
+------
+0111 - res
+0100 - 4
+------
+0011 - res
+0010 - 2
+------
+0001 - res
+0101 - 5
+------
+0100 - res => 4
+
+
+
+
+
+
+https://app.codility.com/demo/results/trainingWMVNB5-XFZ/
+
+https://app.codility.com/programmers/

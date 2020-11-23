@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\bin\Debug\Day2ColilityProject.exe.config
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\bin\Debug\Day2ColilityProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\bin\Debug\Day2ColilityProject.pdb
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\obj\Debug\Day2ColilityProject.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\obj\Debug\Day2ColilityProject.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\obj\Debug\Day2ColilityProject.exe
+D:\Data\d drive\Corp\Srushti\L&T\LTI_GET_886\Work\Day2_Codility\Day2ColilitySolution\Day2ColilityProject\obj\Debug\Day2ColilityProject.pdb

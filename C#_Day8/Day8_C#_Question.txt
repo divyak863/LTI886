@@ -1,0 +1,9 @@
+create a table Driver - id,name,phone
+Create Sps for insert,update,delete
+
+C#
+Create a model class Driver
+Do the CRUD from C#
+Sort the driver while listing with name
+Get the driver details from the database using discon
+Get the number of drivers present - connected

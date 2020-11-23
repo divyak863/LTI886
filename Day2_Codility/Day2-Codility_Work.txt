@@ -1,0 +1,114 @@
+Sequential statements - c1 
+Selection
+Iteration
+-----------------------------------
+Console.WriteLine("Hello");
+Console.WriteLine("Hello");
+Console.WriteLine("Hello");
+O(1)
+
+if(a>b)
+   Console.WriteLine("Hello");
+else
+   Console.WriteLine("Hello");
+O(1) - - least
+-----------------------------------
+
+for(int i=0;i<n;i++)
+{
+  Console.WriteLine("Hello");
+}
+O(n) - Average
+------------------------------------
+
+for(int i=0;i<n;i++)
+{
+  Console.WriteLine("Hello");
+}
+for(int j=0;j<m;j++)
+{
+   Console.WriteLine("Hello");
+}
+O(n+m) - Average
+------------------------------------
+
+while(cond)
+  {
+     //statement alters the loop numbers
+  }
+O(log n) - Average
+------------------------------------
+for(int i=0;i<n;i++)
+{
+  for(int j=0;j<m;j++)
+  {
+     Console.WriteLine("Hello");
+  }
+}
+O(n^2) - High
+-------------------------------------
+if(condition)
+  for(int i=0;i<n;i++)
+  {
+    for(int j=0;j<m;j++)
+    {
+       Console.WriteLine("Hello");
+    }
+  }
+else
+  for(int j=0;j<m;j++)
+  {
+     Console.WriteLine("Hello");
+  }
+O(n^2) - High
+-------------------------------------
+
+for(int i=0;i<n;i++)
+{
+  while(cond)
+  {
+     //statement alters the loop numbers
+  }
+}
+O(nlogm)
+--------------------------------------------
+
+for(int i=0;i<n;i++)
+{
+  for(int j=0;j<m;j++)
+  {
+     Console.WriteLine("Hello");
+  }
+  for(int j=0;j<m;j++)
+  {
+     Console.WriteLine("Hello");
+  }
+}
+O(n!) - very High
+----------------------------------------
+
+
+
+
+
+Lesson 3
+1) https://app.codility.com/demo/results/trainingRAD5U2-BUX/
+2) https://app.codility.com/demo/results/training78M8QM-PF2/
+3) https://app.codility.com/demo/results/trainingEEBAFJ-BM3/
+
+Lesson 4
+https://app.codility.com/demo/results/trainingBQN6JA-EBC/
+
+
+sum_A = 14
+sum_B = 12
+d = 14-12 = 2
+d = 1
+count = {0,1,1,0,1,0,0,1}
+{3,6,2,1}
+i
+0  3-1 = 0<=2  2< 7 1>0
+
+
+
+

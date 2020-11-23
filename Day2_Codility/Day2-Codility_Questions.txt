@@ -1,0 +1,31 @@
+1) https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3157/
+
+2) https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3258/
+
+3) https://leetcode.com/problems/two-sum/
+
+4) Given 2 numbers n,m are length of bar
+n,m are positive integers
+n,m>0
+
+find k such that we can have 4 parts of bar in n,m put to gether
+
+k is the maximum length that can be cut
+
+example - 6,10->3,3+3+3
+Solution 3
+example 7,25->7,7+7+7
+Solution - 7
+example - 5,40->0,10+10+10+10
+Solution - 10
+example - 8,10->
+Solution 4
+example - 19,20->
+Solution 9
+example - 36,9->
+Solution 9
+
+
+5)https://leetcode.com/problems/array-of-doubled-pairs/
+6)https://leetcode.com/problems/running-sum-of-1d-array/
+7)https://leetcode.com/problems/boats-to-save-people
