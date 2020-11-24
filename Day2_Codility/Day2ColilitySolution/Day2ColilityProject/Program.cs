@@ -12,6 +12,7 @@ namespace Day2ColilityProject
         {
             double sum = A.Sum(e => (double)e);
             int num1 = A[0];
+            A.
             int num2 = (int)sum - A[0];
             int result = Math.Abs(num1 - num2);
             for (int i = 1; i < A.Length-1; i++)
