@@ -1,0 +1,29 @@
+public class Solution {
+    public int NumSteps(string s) 
+  {
+        int numSteps=0;    
+        for(int i=s.Length-1;i>=0;i--){
+        if(s[i]=='0')
+            numSteps++;
+        else{
+            if(i==0)
+                return numSteps;	
+            numSteps += CountZero(s,i)+1;
+	    numSteps += (i+1);
+            break;
+        }
+    }
+    return numSteps;
+  }
+
+   int CountZero(string ch,int end)
+   {
+       int zeros=0;
+       for(int i=1;i<end;i++)
+           if(ch[i] == '0') 
+	      zeros++;
+       return zeros;
+   }
+}
+
+https://app.codility.com/demo/results/training4J8J2N-R48/
