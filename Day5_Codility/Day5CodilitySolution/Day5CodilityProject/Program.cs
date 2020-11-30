@@ -8,6 +8,28 @@ namespace Day5CodilityProject
 {
     class Program
     {
+        //N ranges from 1-1000
+        int[] solution(int N)
+        {
+            int[] A = new int[N];
+            //A[0] = 2;
+            for (int i = 0; i < N; i++)
+            {
+                A[i] = (new Random(1).Next(10, 500)*(i+1));
+            }
+            return A;
+        }
+
+        int Find_Min(int[] A)
+        {
+            int ans = 0;//fix
+            for (int i = 1; i < A.Length; i++)
+            {
+                if (ans > A[i])
+                    ans = A[i];
+            }
+            return ans;
+        }
         void M1()
         {
             
