@@ -1,0 +1,34 @@
+https://code.visualstudio.com/docs/?dv=win
+Download and install Visual studio code
+
+Download and install Node JS
+https://nodejs.org/en/download/
+
+check node installation
+in cmd prompt
+node -v
+npm -v
+
+
+install angular
+in the cmd prompt
+npm install -g @angular/cli
+
+checking angular installation
+in the cmd prompt
+ng --version
+
+in the cmd prompt
+Navigate to the location u want to create the aplication
+ng new MyAngularApp
+y
+y
+CSS
+
+
+cd MyAngularApp
+
+ng serve
+
+open browser
+http://localhost:4200/
