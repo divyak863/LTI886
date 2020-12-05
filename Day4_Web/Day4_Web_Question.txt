@@ -1,0 +1,19 @@
+1) create a textbox and bind it with the name variable
+Also interpollate the value of name in the same page
+
+2) Modify the like counter when the user clicks the thumbs up/ down
+The class names are as follows
+glyphicon glyphicon-thumbs-up
+glyphicon glyphicon-thumbs-down
+
+3) Create an component that will take the number of kgs u need for the flower
+if the number needed is greater than available turn the textbox to red using CSS
+or show the total price
+
+
+Create a model class flower with 
+name, price and quantity
+Display the same to user
+
+4) create a calculator component with 2 text box and 4 buttons(+,-,*,/)
+Do the math and show result

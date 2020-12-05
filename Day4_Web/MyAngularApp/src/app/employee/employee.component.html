@@ -1,0 +1,18 @@
+<div>
+    <!-- interpollation -->
+    {{ename}} 
+</div>
+<!-- event binding -->
+Chenge here - <input  type="text" #txtName (change)="textChange(txtName)">
+<br>
+<!-- property binding -->
+See updates here- <input type="text" [value]="ename">
+<hr>
+<!-- Two way binding -->
+<input type="text" [(ngModel)]="ename">
+<hr>
+<hr>
+{{empid}}
+<input type="text" #eid (change)="idChange(eid)" [value]="empid">
+<br>
+<input type="text" [(ngModel)]="empid">

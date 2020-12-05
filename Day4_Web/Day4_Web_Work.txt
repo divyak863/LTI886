@@ -1,0 +1,18 @@
+SPA - Single Page Application
+M - Mongo - Database - Not RDBMS
+E - Express - API - customize
+A - Angular - FE - SPA
+N - Node - RE - Backbone
+
+TypeScript - Compiler - tsc
+exten - ts
+typescript compiles to become javascript
+javascript - no type, no class, no constructor
+
+Creating Components
+
+ng generate component second
+ng g c <componentname>
+
+plese create a component employee
+display the content of the component
