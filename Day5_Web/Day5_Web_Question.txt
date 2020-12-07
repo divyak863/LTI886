@@ -1,0 +1,8 @@
+Create an application that will list bouquet for sale(hint:- use ngFor)
+User should be able to the select the quantity for purchase(hint:- use button inside the  ngFor)
+  Add increase and decrease buttons
+When the quantity available becomes 0 the itemm should be removed from display(hint:- use ngIf)
+
+Display the items selected for purchase in cart
+
+

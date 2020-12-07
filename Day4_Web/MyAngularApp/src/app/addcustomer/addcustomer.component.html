@@ -1,0 +1,10 @@
+<p>addcustomer works!</p>
+<div>
+    <label class="form-control" >Customer ID</label>
+    <input type="number" class="form-control" [(ngModel)]="customer.id">
+    <label class="form-control" >Customer Name</label>
+    <input type="text" class="form-control" [(ngModel)]="customer.name">
+    <label class="form-control" >Customer Phone</label>
+    <input type="text" class="form-control" [(ngModel)]="customer.phone">
+    <button (click)="insertCustomer()" class="btn btn-success">Add Customer</button>
+</div>

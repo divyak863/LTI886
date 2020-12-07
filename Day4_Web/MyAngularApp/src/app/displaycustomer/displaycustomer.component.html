@@ -1,0 +1,11 @@
+<p>displaycustomer works!</p>
+<select #customerid (change)="showCustomer(customerid)">
+    <option *ngFor="let customer of customers" [value]="customer.id">{{customer.id}}</option>
+</select>
+<div>
+    Customer ID: {{cust.id}}
+    <br>
+    Customer Name: {{cust.name}}
+    <br>
+    Customer Phone: {{cust.phone}}
+</div>

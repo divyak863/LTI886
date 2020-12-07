@@ -1,0 +1,4 @@
+<p>deletecustomer works!</p>
+<select #customerid (change)="deleteCustomer(customerid)">
+    <option *ngFor="let customer of customers" [value]="customer.id">{{customer.id}}</option>
+</select>

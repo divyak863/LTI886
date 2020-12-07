@@ -1,0 +1,12 @@
+<p>edit-customer works!</p>
+<select #customerid (change)="showCustomer(customerid)">
+    <option *ngFor="let customer of customers" [value]="customer.id">{{customer.id}}</option>
+</select>
+<div>
+
+    <label class="form-control" >Customer Name</label>
+    <input type="text" class="form-control" [(ngModel)]="customer.name">
+    <label class="form-control" >Customer Phone</label>
+    <input type="text" class="form-control" [(ngModel)]="customer.phone">
+    <button (click)="updateCustomer(customerid)" class="btn btn-primary">Update Customer</button>
+</div>

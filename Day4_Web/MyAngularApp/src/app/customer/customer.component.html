@@ -1,0 +1,16 @@
+<p>customer works!</p>
+<!-- Structure editing directive -->
+<section *ngFor="let cust of customers">
+    Customer ID: {{cust.id}}
+    <br>
+    Customer Name: {{cust.name}}
+    <br>
+    Customer Phone: {{cust.phone}}
+    <br>
+   <p *ngIf="cust.pic!='';else nopic">
+    <img [src]="cust.pic" height="100" width="100">
+   </p>
+   <ng-template #nopic >
+        <span class="alert alert-danger">No Image present</span>
+   </ng-template>
+</section>

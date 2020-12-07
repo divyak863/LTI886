@@ -1,0 +1,14 @@
+Model
+  Array 
+ngFor
+ngIf
+hidden
+
+Service
+
+DI 
+
+Inter component comm
+Input - parent-> child
+
+
