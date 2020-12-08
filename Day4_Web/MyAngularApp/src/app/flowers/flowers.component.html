@@ -1,0 +1,9 @@
+<div *ngFor="let f of flowers;index as i">
+    <div *ngIf="f.quantity>0">
+        <app-flower [flower]="f"></app-flower>
+        <button class="btn btn-success" (click)="addNumber(f.id)">+</button>
+        {{qty[i]}}
+        <button class="btn btn-danger" (click)="reduceNumber(f.id)" [disabled]="qty[i]<=0">-</button>
+        <button class="btn btn-primary" (click)="addToCart(f.id)" [disabled]="qty[i]<=0"> Add To Cart</button>
+    </div>
+</div>

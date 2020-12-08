@@ -8,7 +8,6 @@ import { SecondComponent } from './second/second.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { FormsModule } from '@angular/forms';
 import { EmpdetailsComponent } from './empdetails/empdetails.component';
-import { UserComponent } from './user/user.component';
 import { LikeComponent } from './like/like.component';
 import { CustomerComponent } from './customer/customer.component';
 import { CommonModule } from '@angular/common';
@@ -20,6 +19,11 @@ import { EditCustomerComponent } from './edit-customer/edit-customer.component';
 import { MovieComponent } from './movie/movie.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MovieService } from './services/movie.service';
+import { FlowersComponent } from './flowers/flowers.component';
+import { FlowerComponent } from './flower/flower.component';
+import { CartComponent } from './cart/cart.component';
+import { FlowerService } from './services/flower.service';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,6 @@ import { MovieService } from './services/movie.service';
     SecondComponent,
     EmployeeComponent,
     EmpdetailsComponent,
-    UserComponent,
     LikeComponent,
     CustomerComponent,
     DisplaycustomerComponent,
@@ -36,14 +39,18 @@ import { MovieService } from './services/movie.service';
     DeletecustomerComponent,
     EditCustomerComponent,
     MovieComponent,
-    MoviesComponent
+    MoviesComponent,
+    FlowersComponent,
+    FlowerComponent,
+    CartComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [CustomerService,MovieService],
+  providers: [CustomerService,MovieService,FlowerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

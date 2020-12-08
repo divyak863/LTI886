@@ -1,0 +1,8 @@
+<div *ngFor="let f of cart;index as i">
+    <app-flower [flower]="f" ></app-flower>
+    <!-- <app-flower [flower]="f"(calculate)="calculateTotal($event)" ></app-flower> -->
+    <div>{{subTotal[i]}}</div>
+</div>
+<div *ngIf="cart.length!=0" class="alert alert-info">
+   Total:  {{flowerService.total}}
+</div>

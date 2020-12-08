@@ -1,0 +1,36 @@
+Model
+Flower - model
+  id
+  name
+  price
+  quantity
+  pic
+User
+  username
+  password
+  name
+  age
+  phone
+
+Service
+  FlowerService
+     getFlowers
+     getFlower
+     buyFlower
+     getCart
+  UserService
+     createUser
+     loginUser
+
+
+Components
+  Flower
+  Flowers
+  Cart
+  Register
+  Login
+
+
+validations
+ template
+ recativeform

@@ -1,2 +1,23 @@
-<p>user works!</p>
-<span [class]="className" (click)="toggleClass()"></span>
+<div>
+    <label class="form-control">Username</label>
+    <input class="form-control" type="text" [(ngModel)]="user.username" 
+    #username="ngModel" required minlength="7">
+    <span class="alert alert-danger" *ngIf="!username.valid && username.touched">
+       <span *ngIf="username.errors && username.errors.required">username cannot be empty</span>
+       <span *ngIf="username.errors && username.errors.minlength">username has to be minimum {{username.errors.minlength.requiredLength}} chars long</span>
+    </span>
+    <label class="form-control">Password</label>
+    <input class="form-control" type="text" [(ngModel)]="user.password" required >
+    <label class="form-control">Name</label>
+    <input class="form-control" type="text" [(ngModel)]="user.name" required >
+    <label class="form-control">Age</label>
+    <input class="form-control" type="number" 
+    #age="ngModel" [(ngModel)]="user.age" required min="18">
+    <span class="alert alert-danger" *ngIf="!age.valid && age.touched">
+        <span *ngIf="age.errors && age.errors.required">age cannot be empty</span>
+        <span *ngIf="age.errors && age.errors.min">Invalid age</span>
+     </span>
+    <label class="form-control">Phone</label>
+    <input class="form-control" type="text" [(ngModel)]="user.phone" required >
+    <button class="btn btn-primary" (click)="register(age)">Register User</button>
+</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../models/user';
 
 @Component({
   selector: 'app-user',
@@ -7,19 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  className:string;
-  check:boolean;
-  constructor() {
-    this.className = "glyphicon glyphicon-heart";
-    this.check = true;
-   }
-  toggleClass(){
-    this.check = !this.check;
-    if(this.check==true)
-      this.className = "glyphicon glyphicon-heart";
-    else
-        this.className = "glyphicon glyphicon-heart-empty";
+  user:User;
+  constructor() { 
+    this.user = new User();
   }
+register(un:any){
+  console.log(un);
+}
   ngOnInit(): void {
   }
 
