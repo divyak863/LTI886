@@ -38,7 +38,54 @@
 </div>
 <div>
    <app-cart></app-cart>
-</div>-->
+</div>
 <div>
    <app-user></app-user>
+</div>
+<div>
+   <app-login></app-login>
+</div>
+<div [ngSwitch]="choice"> 
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li (click)="choice='shop'"><a href="#">Shop </a></li>
+          <li (click)="choice='register'"><a href="#">Register</a></li>
+          <li (click)="choice='login'"><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+   <div>Content</div>
+   <div *ngSwitchCase="'shop'">
+      <div>
+         <app-flowers></app-flowers>
+      </div>
+      <div>
+         <app-cart></app-cart>
+      </div>
+   </div>
+   <div *ngSwitchCase="'register'">
+      <app-user></app-user>
+   </div>
+   <div *ngSwitchCase="'login'">
+      <app-login></app-login>
+   </div>
+</div>-->
+<div>
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a routerLink="shop">Shop </a></li>
+          <li><a routerLink="register" href="#">Register</a></li>
+          <li><a routerLink="login" href="#">Login</a></li>
+          <li><a routerLink="us" href="#">User Select</a></li>
+        </ul>
+      </div>
+    </nav>
+   <div>Content
+      <router-outlet></router-outlet>
+   </div>
+   
 </div>

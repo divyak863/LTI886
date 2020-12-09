@@ -1,0 +1,28 @@
+1) StackBlitz
+Create an application that will take name and gender from user
+(Gender in dropdown list)
+
+Once the user selects the gender show a salutation in a span down bellow
+
+Once the user enters the name show the name combined with the previous content
+
+If the gender is male add the class male to the span
+If it is female add class female
+
+.male {
+color: yellow;
+background-color: navyblue;
+}
+.female {
+color: navyblue;
+background-color: yellow;
+}
+2) Create an application that will take account number and password from user and allows user to log in
+Once logged in show welcome msg and all the transaction of that particular user
+Note: create an array of transaction in the service of type transaction
+transaction model 
+  from account
+  to account
+  amount
+  date
+  remarks

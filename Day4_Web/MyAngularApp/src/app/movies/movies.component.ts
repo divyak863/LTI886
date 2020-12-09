@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Movie } from '../models/movie';
 import { MovieService } from '../services/movie.service';
 
@@ -10,10 +11,12 @@ import { MovieService } from '../services/movie.service';
 export class MoviesComponent implements OnInit {
 
   movies:Movie[];
-  constructor(private movieService:MovieService) { 
+  constructor(private movieService:MovieService,private myRoute:Router) { 
     this.movies = this.movieService.getMovies();
   }
-
+nav(){
+    this.myRoute.navigate([""]);
+}
   ngOnInit(): void {
   }
 

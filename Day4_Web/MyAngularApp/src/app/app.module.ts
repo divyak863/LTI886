@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {FirstComponent} from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { EmployeeComponent } from './employee/employee.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EmpdetailsComponent } from './empdetails/empdetails.component';
 import { LikeComponent } from './like/like.component';
 import { CustomerComponent } from './customer/customer.component';
@@ -24,6 +24,27 @@ import { FlowerComponent } from './flower/flower.component';
 import { CartComponent } from './cart/cart.component';
 import { FlowerService } from './services/flower.service';
 import { UserComponent } from './user/user.component';
+import { LoginComponent } from './login/login.component';
+import { USerService } from './services/user.service';
+import { RouterModule, Routes } from '@angular/router';
+import { DummyComponent } from './dummy/dummy.component';
+import { UserselectComponent } from './userselect/userselect.component';
+
+var myRoutes:Routes = [
+  
+  {path:'shop',component:FlowersComponent},
+  {path:'register',component:UserComponent},
+  {path:'login/:un',component:LoginComponent},
+  {path:"",component:FirstComponent},
+  {path:'movie',component:MoviesComponent,children:[
+    {path:'employee',component:EmployeeComponent}
+  ]},
+  {path:'employee',component:EmployeeComponent},
+  {path:'us',component:UserselectComponent},
+  {path:'dummy/:id',component:DummyComponent},
+  {path:'**',component:SecondComponent}
+  
+]
 
 @NgModule({
   declarations: [
@@ -43,14 +64,19 @@ import { UserComponent } from './user/user.component';
     FlowersComponent,
     FlowerComponent,
     CartComponent,
-    UserComponent
+    UserComponent,
+    LoginComponent,
+    DummyComponent,
+    UserselectComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule.forRoot(myRoutes)
   ],
-  providers: [CustomerService,MovieService,FlowerService],
+  providers: [CustomerService,MovieService,FlowerService,USerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

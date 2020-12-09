@@ -1,0 +1,29 @@
+ReactiveFormValidation
+ngSwitch
+
+Routing
+  routeLink
+  router-outlet
+  router
+  routes
+  routermodule
+  forRoot
+  navigate
+  navigatebyurl
+  parameter
+  children routes
+
+
+Resource - prime - identity of the resource
+CRUD - create, read, update and delete
+
+
+
+
+
+
+
+
+
+
+

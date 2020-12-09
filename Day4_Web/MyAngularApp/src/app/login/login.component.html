@@ -1,0 +1,22 @@
+<p>login works!</p>
+<form [formGroup]="myForm" (ngSubmit)="loginCheck()">
+    <label class="form-control">Username</label>
+    <input type="text" class="form-control" formControlName="username">
+    <span *ngIf="username.touched && !username.valid">
+        <span *ngIf="username.errors && username.errors.required">
+            Username cannot be empty
+        </span>
+        <span *ngIf="username.errors && username.errors.minlength">
+           Username should be minium 6 chars long
+        </span>
+        <span *ngIf="username.errors && username.errors.notAllowedName">
+            Username cannot be Admin123. YOu are not the admin
+         </span>
+    </span>
+    <label class="form-control">Password</label>
+    <input type="password" class="form-control" formControlName="password">
+    <button class="btn btn-success">Login</button>
+</form>
+<div [hidden]="resultMessage==''"> 
+    {{resultMessage}}
+</div>

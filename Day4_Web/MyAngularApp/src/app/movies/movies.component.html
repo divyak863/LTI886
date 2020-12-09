@@ -2,3 +2,7 @@
 <div *ngFor="let m of movies">
    <app-movie [myMovie]=m></app-movie>
 </div>
+<div>
+   <router-outlet></router-outlet>
+</div>
+<button class="btn btn-danger" (click)="nav()">Go Home</button>
