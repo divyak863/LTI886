@@ -1,0 +1,36 @@
+create a simple class style for 
+support
+ignore
+outer
+inner
+
+Create a componenet that is wraped in a span with a class "outer"
+the content of the inner span should have "I Support" initially
+when clicked should change to "I Ignore"
+And turn back to "I Support" when clicked again
+(Simply toggle)
+
+The span inner should have the class "inner"
+
+If it says "I Ignore" the the class that has to applied is "ignore" in addition
+If it says "I Support" the teh class that has to applied is "support" in addition
+
+Time - 30 mins
+create a component which has a text box for taking the age and displaying it in the 
+span below the text box.
+add the following style classes
+.display{
+border: 2px black solid;
+height:100px;
+width:100px;
+}
+.vote{
+background-color:green;
+}
+.novote{
+background-color:red;
+}
+
+Wrap the message in an span
+if the age entered by user is <18 then the 'novote' class should be added in addition to the display
+else the 'vote' class should be added.

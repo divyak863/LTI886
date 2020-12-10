@@ -17,6 +17,48 @@ background-color: navyblue;
 color: navyblue;
 background-color: yellow;
 }
+
+@Component({
+  selector: 'my-app',
+  template:`
+  <select #gender (change)="changeData(gender)">
+    <option value="male">male</option>
+    <option value="female">female</option>
+  </select>
+  <input type="text" [(ngModel)] = "name">
+  <span [class]="genClass">
+  {{data}} {{name}}
+  </span>
+  `,
+  styles:[
+    `.male {
+color: yellow;
+background-color: navyblue;
+}
+.female {
+color: navyblue;
+background-color: yellow;
+}`
+  ]
+})
+export class AppComponent  {
+  name = "";
+  genClass:string;
+  data:string;
+  changeData(gender){
+      if(gender.value=="male")
+       {
+          this.genClass = "male";
+          this.data = "Mr. ";
+       }
+       else
+       {
+          this.genClass = "female";
+          this.data = "Miss. ";
+       }
+  }
+}
+
 2) Create an application that will take account number and password from user and allows user to log in
 Once logged in show welcome msg and all the transaction of that particular user
 Note: create an array of transaction in the service of type transaction

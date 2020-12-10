@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EmpdetailsComponent } from './empdetails/empdetails.component';
 import { LikeComponent } from './like/like.component';
 import { CustomerComponent } from './customer/customer.component';
-import { CommonModule } from '@angular/common';
 import { DisplaycustomerComponent } from './displaycustomer/displaycustomer.component';
 import { AddcustomerComponent } from './addcustomer/addcustomer.component';
 import { CustomerService } from './services/customer.service';
@@ -29,6 +29,8 @@ import { USerService } from './services/user.service';
 import { RouterModule, Routes } from '@angular/router';
 import { DummyComponent } from './dummy/dummy.component';
 import { UserselectComponent } from './userselect/userselect.component';
+import { OrgService } from './services/org.service';
+import { OrgComponent } from './org/org.component';
 
 var myRoutes:Routes = [
   
@@ -41,6 +43,7 @@ var myRoutes:Routes = [
   ]},
   {path:'employee',component:EmployeeComponent},
   {path:'us',component:UserselectComponent},
+  {path:'org',component:OrgComponent},
   {path:'dummy/:id',component:DummyComponent},
   {path:'**',component:SecondComponent}
   
@@ -67,16 +70,18 @@ var myRoutes:Routes = [
     UserComponent,
     LoginComponent,
     DummyComponent,
-    UserselectComponent
+    UserselectComponent,
+    OrgComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(myRoutes)
+    RouterModule.forRoot(myRoutes),
+    HttpClientModule
   ],
-  providers: [CustomerService,MovieService,FlowerService,USerService],
+  providers: [CustomerService,MovieService,FlowerService,USerService,OrgService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,14 @@
+<p>org works!</p>
+<button class="btn btn-success" (click)="getData()">Get Data</button>
+<div *ngIf="arr_org.length>0">
+        <div *ngFor="let org of arr_org">
+            id:{{org.id}}
+            <br>
+            name:{{org.name | uppercase}}
+            <br>
+            username:{{org.username}}
+            <br/> 
+            price {{12*12.2 | currency:'INR'}}
+            <hr>
+        </div>
+</div>

@@ -1,0 +1,42 @@
+C -Creation - post
+R -Reading  - get
+U -Updation - put
+D -Deletion - delete
+
+Observable - 
+Domain Name
+WWW
+HTTP
+Protocol
+DNS - Domain Naming System
+HTML
+DOM - Document Object Model
+entity  &nbsp; &lt; &gt;
+CSS
+id and class selector
+javaScript
+jQuery - uses CSS selector
+ivy - Rendering engine
+Bazel
+Component
+Intercomponet comm
+  input and output
+  using service
+Binding - property, event, 2 way
+Template
+Style
+Module
+Service
+Model
+Class
+Typescript
+Pipes
+directives
+  structural
+  non structural
+Validations
+Routing
+Http
+
+
+
